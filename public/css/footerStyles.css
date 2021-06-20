@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=);
+
+footer {
+    display: flex;
+    bottom: 0px;
+    width: 100vw;
+    background: #111;
+    color: #d9d9d9;
+    justify-content: center;
+  
+}
+.footer img{
+    width: 5vw;
+    height: 5vw;
+    margin: auto;
+}
+.socialIconsFooter{
+    max-width: 100%;
+    text-align: center;
+}
+.socialIconsFooter img{
+    width: 4vw;
+    height: 4vw;
+}
+.containerFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 5px 25px;
+    width: 100%;
+}
+
+.partOneFooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30vw;
+}
+.parrafoFooter{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+.partTwoFooter{
+display: flex;
+flex-direction: column;
+width: 60vw;
+}
+.mapFooter, .emailFooter, .telFooter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.partTwoFooter img{
+    text-align: center;
+    height: 4vw;
+    width: 4vw;
+    margin-bottom: 10px;
+}
+.containerFooter h2 {
+    text-align: center;
+}
+.contentFooter{
+    display: flex;
+    font-size: calc(0.6em + 0.5vw);
+    justify-content: space-around;
+}
+.copyFooter{
+    display: flex;
+    margin: 0;
+    align-self: center;
+    
+}
+.partThreeFooter{
+text-align: center;
+width: 30vw;
+
+}
+
+@media (max-width: 679px){
+    .containerFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 15px;
+        width: 100vw;
+    }
+    .containerFooter h3, h2{
+       display: none;
+        
+    }
+    .partTwoFooter {
+        order: -1;
+    }
+    .partOneFooter{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+
+    }
+    .contentFooter{
+        display:grid;
+    }
+    .nuestrasFooter{
+        display: none;
+    }
+    .copyFooter{
+        font-size: 0.5em;
+        text-align: center;
+        display: contents;
+    }
+}
+
+  
